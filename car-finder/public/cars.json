@@ -6,7 +6,9 @@
     "price": 3200000,
     "fuelType": "Diesel",
     "seatingCapacity": 7,
-    "image": "https://gaadiwaadi.com/wp-content/uploads/2024/04/2024-toyota-fortuner-mild-hybrid-1.jpg"
+    "image": "https://gaadiwaadi.com/wp-content/uploads/2024/04/2024-toyota-fortuner-mild-hybrid-1.jpg",
+    "description": "The Toyota Fortuner is a powerful and rugged SUV built for adventure.",
+    "specifications": ["Diesel Engine", "7-Seater", "Automatic Transmission", "Touchscreen Display", "Dual Airbags"]
   },
   {
     "id": "2",
@@ -15,7 +17,9 @@
     "price": 1800000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPCmfSgI0wWohvhPDlqRb50PkdQfAo965BA&s"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPCmfSgI0wWohvhPDlqRb50PkdQfAo965BA&s",
+    "description": "The Hyundai Creta is a stylish and feature-packed compact SUV designed for urban driving.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Sunroof", "Rear Parking Sensors"]
   },
   {
     "id": "3",
@@ -24,7 +28,9 @@
     "price": 2500000,
     "fuelType": "Diesel",
     "seatingCapacity": 5,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-j6L_2XgNdUlBtG6BWS_BBGigYkkNY_oNOA&s"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-j6L_2XgNdUlBtG6BWS_BBGigYkkNY_oNOA&s",
+    "description": "The Tata Harrier is a bold and robust SUV that combines style with performance.",
+    "specifications": ["Diesel Engine", "5-Seater", "Automatic Transmission", "Panoramic Sunroof", "6 Airbags"]
   },
   {
     "id": "4",
@@ -33,7 +39,9 @@
     "price": 750000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/swift-exterior-right-front-three-quarter-4.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/swift-exterior-right-front-three-quarter-4.jpeg",
+    "description": "The Maruti Swift is a compact hatchback known for its sporty design and fuel efficiency.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Smartplay Studio", "Dual Airbags"]
   },
   {
     "id": "5",
@@ -42,7 +50,9 @@
     "price": 3000000,
     "fuelType": "Diesel",
     "seatingCapacity": 7,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/44787/xuv700-exterior-right-front-three-quarter-4.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/44787/xuv700-exterior-right-front-three-quarter-4.jpeg",
+    "description": "The Mahindra XUV700 is a premium SUV offering advanced technology and spacious interiors.",
+    "specifications": ["Diesel Engine", "7-Seater", "Automatic Transmission", "ADAS Features", "Panoramic Sunroof"]
   },
   {
     "id": "6",
@@ -51,7 +61,9 @@
     "price": 1600000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/134015/seltos-exterior-right-front-three-quarter-3.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/134015/seltos-exterior-right-front-three-quarter-3.jpeg",
+    "description": "The Kia Seltos is a stylish compact SUV that offers a perfect blend of performance and comfort.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "6 Airbags"]
   },
   {
     "id": "7",
@@ -60,7 +72,9 @@
     "price": 1400000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/139561/city-exterior-right-front-three-quarter-6.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/139561/city-exterior-right-front-three-quarter-6.jpeg",
+    "description": "The Honda City is a premium sedan known for its elegance and performance.",
+    "specifications": ["Petrol Engine", "5-Seater", "CVT Transmission", "Sunroof", "Multi-Function Steering Wheel"]
   },
   {
     "id": "8",
@@ -69,7 +83,9 @@
     "price": 2200000,
     "fuelType": "Diesel",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/122119/hector-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/122119/hector-exterior-right-front-three-quarter.jpeg",
+    "description": "The MG Hector is a spacious SUV packed with advanced technology and features.",
+    "specifications": ["Diesel Engine", "5-Seater", "Manual/Automatic Transmission", "10.4-inch Touchscreen", "Voice Assistant"]
   },
   {
     "id": "9",
@@ -78,7 +94,9 @@
     "price": 1700000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141831/kushaq-exterior-right-front-three-quarter-2.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141831/kushaq-exterior-right-front-three-quarter-2.jpeg",
+    "description": "The Skoda Kushaq is a compact SUV that combines practicality with a stylish design.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Virtual Cockpit", "6 Airbags"]
   },
   {
     "id": "10",
@@ -87,7 +105,9 @@
     "price": 1600000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111587/virtus-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111587/virtus-exterior-right-front-three-quarter.jpeg",
+    "description": "The Volkswagen Virtus is a premium sedan that offers a blend of performance and comfort.",
+    "specifications": ["Petrol Engine", "5-Seater", "Automatic Transmission", "Digital Cockpit", "6 Airbags"]
   },
   {
     "id": "11",
@@ -96,7 +116,9 @@
     "price": 900000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141285/baleno-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141285/baleno-exterior-right-front-three-quarter.jpeg",
+    "description": "The Maruti Baleno is a premium hatchback known for its spacious interiors and fuel efficiency.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "Dual Airbags"]
   },
   {
     "id": "12",
@@ -105,7 +127,9 @@
     "price": 850000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/142325/kiger-exterior-right-front-three-quarter-6.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/142325/kiger-exterior-right-front-three-quarter-6.jpeg",
+    "description": "The Renault Kiger is a compact SUV that offers modern features and a stylish design.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "Dual Airbags"]
   },
   {
     "id": "13",
@@ -114,7 +138,9 @@
     "price": 1700000,
     "fuelType": "Diesel",
     "seatingCapacity": 4,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111457/thar-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111457/thar-exterior-right-front-three-quarter.jpeg",
+    "description": "The Mahindra Thar is an iconic off-roader that offers adventure and versatility.",
+    "specifications": ["Diesel Engine", "4-Seater", "Manual/Automatic Transmission", "4WD", "Removable Roof"]
   },
   {
     "id": "14",
@@ -123,7 +149,9 @@
     "price": 1000000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/i20-exterior-right-front-three-quarter-4.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/i20-exterior-right-front-three-quarter-4.jpeg",
+    "description": "The Hyundai i20 is a premium hatchback that combines style with advanced features.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "6 Airbags"]
   },
   {
     "id": "15",
@@ -132,7 +160,9 @@
     "price": 1300000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/132211/nexon-exterior-right-front-three-quarter-5.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/132211/nexon-exterior-right-front-three-quarter-5.jpeg",
+    "description": "The Tata Nexon is a compact SUV known for its safety and modern design.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Sunroof", "Dual Airbags"]
   },
   {
     "id": "16",
@@ -141,7 +171,9 @@
     "price": 1900000,
     "fuelType": "Diesel",
     "seatingCapacity": 6,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141651/carens-exterior-right-front-three-quarter-2.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141651/carens-exterior-right-front-three-quarter-2.jpeg",
+    "description": "The Kia Carens is a versatile MPV that offers spacious seating and comfort.",
+    "specifications": ["Diesel Engine", "6-Seater", "Automatic Transmission", "Touchscreen Display", "Rear Parking Sensors"]
   },
   {
     "id": "17",
@@ -150,7 +182,9 @@
     "price": 950000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141751/amaze-exterior-right-front-three-quarter-2.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141751/amaze-exterior-right-front-three-quarter-2.jpeg",
+    "description": "The Honda Amaze is a compact sedan that combines style with efficiency.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "Dual Airbags"]
   },
   {
     "id": "18",
@@ -159,7 +193,9 @@
     "price": 1100000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/144187/magnite-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/144187/magnite-exterior-right-front-three-quarter.jpeg",
+    "description": "The Nissan Magnite is a compact SUV that delivers style and performance.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "6 Airbags"]
   },
   {
     "id": "19",
@@ -168,7 +204,9 @@
     "price": 1700000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/114551/slavia-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/114551/slavia-exterior-right-front-three-quarter.jpeg",
+    "description": "The Skoda Slavia is a premium sedan that combines elegance with performance.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Digital Cockpit", "6 Airbags"]
   },
   {
     "id": "20",
@@ -177,6 +215,8 @@
     "price": 1850000,
     "fuelType": "Petrol",
     "seatingCapacity": 5,
-    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111581/taigun-exterior-right-front-three-quarter.jpeg"
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111581/taigun-exterior-right-front-three-quarter.jpeg",
+    "description": "The Volkswagen Taigun is a stylish compact SUV designed for the modern driver.",
+    "specifications": ["Petrol Engine", "5-Seater", "Manual/Automatic Transmission", "Touchscreen Display", "6 Airbags"]
   }
 ]

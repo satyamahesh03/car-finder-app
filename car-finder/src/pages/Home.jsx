@@ -26,7 +26,7 @@ const Home = () => {
 
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-6">
-            <div className="flex gap-6">
+            <div className="w-full flex flex-col gap-4">
                 <FilterPanel
                     cars={cars}
                     setFilteredCars={setFilteredCars}

@@ -30,7 +30,7 @@ const CarCard = ({ car }) => {
 
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition relative">
-      <Link to={`/car/${car.id}`}>
+      <Link to={`/car/${car.model.toLowerCase().replace(" ", "-")}`}>
         <div className="bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition relative">
           <img
             src={car.image}
@@ -43,7 +43,7 @@ const CarCard = ({ car }) => {
             </h2>
             <p className="text-gray-600 text-sm">Fuel: {car.fuelType}</p>
             <p className="text-gray-600 text-sm">Seating: {car.seatingCapacity}</p>
-            <p className="text-blue-600 font-bold mt-2">
+            <p className="text-green-600 font-bold mt-2">
               ₹ {car.price.toLocaleString("en-IN")}
             </p>
           </div>
