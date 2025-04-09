@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "price": 3200000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 7,
+    "image": "https://gaadiwaadi.com/wp-content/uploads/2024/04/2024-toyota-fortuner-mild-hybrid-1.jpg"
+  },
+  {
+    "id": "2",
+    "brand": "Hyundai",
+    "model": "Creta",
+    "price": 1800000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPCmfSgI0wWohvhPDlqRb50PkdQfAo965BA&s"
+  },
+  {
+    "id": "3",
+    "brand": "Tata",
+    "model": "Harrier",
+    "price": 2500000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-j6L_2XgNdUlBtG6BWS_BBGigYkkNY_oNOA&s"
+  },
+  {
+    "id": "4",
+    "brand": "Maruti",
+    "model": "Swift",
+    "price": 750000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/swift-exterior-right-front-three-quarter-4.jpeg"
+  },
+  {
+    "id": "5",
+    "brand": "Mahindra",
+    "model": "XUV700",
+    "price": 3000000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 7,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/44787/xuv700-exterior-right-front-three-quarter-4.jpeg"
+  },
+  {
+    "id": "6",
+    "brand": "Kia",
+    "model": "Seltos",
+    "price": 1600000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/134015/seltos-exterior-right-front-three-quarter-3.jpeg"
+  },
+  {
+    "id": "7",
+    "brand": "Honda",
+    "model": "City",
+    "price": 1400000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/139561/city-exterior-right-front-three-quarter-6.jpeg"
+  },
+  {
+    "id": "8",
+    "brand": "MG",
+    "model": "Hector",
+    "price": 2200000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/122119/hector-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "9",
+    "brand": "Skoda",
+    "model": "Kushaq",
+    "price": 1700000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141831/kushaq-exterior-right-front-three-quarter-2.jpeg"
+  },
+  {
+    "id": "10",
+    "brand": "Volkswagen",
+    "model": "Virtus",
+    "price": 1600000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111587/virtus-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "11",
+    "brand": "Maruti",
+    "model": "Baleno",
+    "price": 900000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141285/baleno-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "12",
+    "brand": "Renault",
+    "model": "Kiger",
+    "price": 850000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/142325/kiger-exterior-right-front-three-quarter-6.jpeg"
+  },
+  {
+    "id": "13",
+    "brand": "Mahindra",
+    "model": "Thar",
+    "price": 1700000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 4,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111457/thar-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "14",
+    "brand": "Hyundai",
+    "model": "i20",
+    "price": 1000000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/39007/i20-exterior-right-front-three-quarter-4.jpeg"
+  },
+  {
+    "id": "15",
+    "brand": "Tata",
+    "model": "Nexon",
+    "price": 1300000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/132211/nexon-exterior-right-front-three-quarter-5.jpeg"
+  },
+  {
+    "id": "16",
+    "brand": "Kia",
+    "model": "Carens",
+    "price": 1900000,
+    "fuelType": "Diesel",
+    "seatingCapacity": 6,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141651/carens-exterior-right-front-three-quarter-2.jpeg"
+  },
+  {
+    "id": "17",
+    "brand": "Honda",
+    "model": "Amaze",
+    "price": 950000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/141751/amaze-exterior-right-front-three-quarter-2.jpeg"
+  },
+  {
+    "id": "18",
+    "brand": "Nissan",
+    "model": "Magnite",
+    "price": 1100000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/144187/magnite-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "19",
+    "brand": "Skoda",
+    "model": "Slavia",
+    "price": 1700000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/114551/slavia-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "id": "20",
+    "brand": "Volkswagen",
+    "model": "Taigun",
+    "price": 1850000,
+    "fuelType": "Petrol",
+    "seatingCapacity": 5,
+    "image": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/111581/taigun-exterior-right-front-three-quarter.jpeg"
+  }
+]
