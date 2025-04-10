@@ -9,16 +9,17 @@ const Home = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const carsPerPage = 10;
 
-    // useEffect to fetch car data (mock for now)
+    const [isLoading, setIsLoading] = useState(true);
+
     useEffect(() => {
-        fetch("/cars.json") // or use a mock API
-            .then((res) => res.json())
-            .then((data) => {
+        fetch("/cars.json")
+            .then(res => res.json())
+            .then(data => {
                 setCars(data);
                 setFilteredCars(data);
+                setIsLoading(false);
             });
     }, []);
-
     // pagination logic
     const indexOfLastCar = currentPage * carsPerPage;
     const indexOfFirstCar = indexOfLastCar - carsPerPage;
@@ -39,11 +40,11 @@ const Home = () => {
                         ))}
                     </div>
                     <Pagination
-                        className="mt-6"
                         totalCars={filteredCars.length}
                         carsPerPage={carsPerPage}
                         currentPage={currentPage}
                         setCurrentPage={setCurrentPage}
+                        isLoading={isLoading}
                     />
                 </div>
             </div>

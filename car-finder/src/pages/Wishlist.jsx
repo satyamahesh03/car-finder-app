@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { WishlistContext } from "../context/WishlistContext";
 import { motion } from "framer-motion";
+import { FaTrash } from "react-icons/fa";
 
 const Wishlist = () => {
   const { wishlist, removeFromWishlist } = useContext(WishlistContext);
@@ -11,19 +12,9 @@ const Wishlist = () => {
     `${car.brand} ${car.model}`.toLowerCase().includes(filter.toLowerCase())
   );
 
-  const exportWishlist = () => {
-    const dataStr = JSON.stringify(wishlist, null, 2);
-    const blob = new Blob([dataStr], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "wishlist.json";
-    a.click();
-  };
-
   const showToast = (message) => {
     setToastMessage(message);
-    setTimeout(() => setToastMessage(""), 3000);
+    setTimeout(() => setToastMessage(""), 2000);
   };
 
   return (
@@ -38,12 +29,6 @@ const Wishlist = () => {
           onChange={(e) => setFilter(e.target.value)}
           className="mb-4 p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
-        <button
-          onClick={exportWishlist}
-          className="mb-4 p-3 bg-yellow-500 text-white rounded-lg shadow-md hover:bg-yellow-600 transition duration-300"
-        >
-          Export Wishlist
-        </button>
         {toastMessage && (
           <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white p-4 rounded-lg shadow-lg">
             {toastMessage}
@@ -87,9 +72,9 @@ const Wishlist = () => {
                     removeFromWishlist(car.id);
                     showToast(`${car.brand} ${car.model} removed from wishlist.`);
                   }}
-                  className="absolute top-2 right-2 flex items-center justify-center p-2 bg-transparent text-white rounded-full shadow hover:bg-red-600 transition duration-300"
+                  className="absolute top-2 right-2 flex items-center justify-center p-2 bg-transparent text-red-600 dark:text-red-400 hover:text-red-700 dark:hover:text-red-500 transition duration-300"
                 >
-                  🗑️
+                  <FaTrash />
                 </button>
               </motion.div>
             ))}

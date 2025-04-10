@@ -10,10 +10,10 @@ const CarCard = ({ car }) => {
   const toggleWishlist = () => {
     if (isLiked) {
       removeFromWishlist(car.id);
-      showToast(`${car.brand} ${car.model} removed from Wishlist ❌`);
+      showToast(`${car.brand} ${car.model} removed from Wishlist`);
     } else {
       addToWishlist(car);
-      showToast(`${car.brand} ${car.model} added to Wishlist ❤️`);
+      showToast(`${car.brand} ${car.model} added to Wishlist`);
     }
   };
 
@@ -30,13 +30,17 @@ const CarCard = ({ car }) => {
 
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition relative">
+
+
       <Link to={`/car/${car.model.toLowerCase().replace(" ", "-")}`}>
         <div className="bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition relative">
-          <img
-            src={car.image}
-            alt={`${car.brand} ${car.model}`}
-            className="w-full h-48 object-cover"
-          />
+          <div className="transform transition-transform duration-300 hover:scale-105 hover:shadow-lg rounded-lg overflow-hidden">
+              <img
+                src={car.image}
+                alt={`${car.brand} ${car.model}`}
+                className="w-full h-48 object-cover"
+              />
+          </div>
           <div className="p-4">
             <h2 className="text-xl font-semibold mb-1">
               {car.brand} {car.model}
@@ -55,6 +59,7 @@ const CarCard = ({ car }) => {
       >
         {isLiked ? <FaHeart /> : <FaRegHeart />}
       </button>
+
     </div>
   );
 };

@@ -27,8 +27,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-gray-900 text-black dark:text-white px-6 py-4 flex justify-between items-center transition-colors duration-300">
-      <Link to="/" className="text-2xl font-extrabold text-blue-600 dark:text-blue-400 hover:opacity-90 transition">
-      Car Finder
+      <Link to="/" className="text-2xl font-bold hover:opacity-90 transition">
+        <span className="text-teal-500">Car</span>
+        <span className="text-lime-600">Finder</span>
       </Link>
       <div className="flex items-center space-x-4">
         <button
@@ -39,8 +40,7 @@ const Navbar = () => {
         </button>
         <Link
           to="/wishlist"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-200"
-        >
+          className="bg-amber-500 hover:bg-amber-600 text-white p-2 rounded-full transition">
           Wishlist
         </Link>
       </div>
