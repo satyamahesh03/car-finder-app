@@ -3,7 +3,7 @@
 A modern, responsive car browsing application built with **React + Vite**. Users can filter, search, view detailed specifications, and save favorite cars to a wishlist.
 
 ---
-
+Live :- https://carfinderlite.vercel.app/
 ## 🔧 Features
 
 - 🔍 **Search & Filter** cars by brand, price, fuel type, seating
@@ -66,7 +66,6 @@ src/
 ## 🌐 Deployment
 This app is ready to be deployed on platforms like:
 - [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
 Make sure to:
 - Keep `cars.json` in the `public/` folder
@@ -75,9 +74,14 @@ Make sure to:
 ---
 
 ## 📷 Screenshots
-- Home with Filters
-- Car Details Page
-- Wishlist Page
+<img width="1440" alt="Screenshot 2025-04-10 at 11 48 33 PM" src="https://github.com/user-attachments/assets/31062b21-af0e-425a-b812-5a0ab6fa291d" />
+
+
+<img width="1440" alt="Screenshot 2025-04-10 at 11 49 37 PM" src="https://github.com/user-attachments/assets/03d04e32-6a0c-448c-9a02-0f1168578ca2" />
+
+
+<img width="1440" alt="Screenshot 2025-04-10 at 11 50 44 PM" src="https://github.com/user-attachments/assets/b14314ba-4af6-45c6-8611-1663e508b458" />
+
 
 ---
 
